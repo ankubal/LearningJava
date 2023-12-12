@@ -11,10 +11,15 @@ public class PhoneBrands {
 //		                                  {"S21","GooglePixel6Pro","IphoneSE"},
 //		                                  {"Flip3","GooglePixelPro","Iphone 15"},
 //		                                  {"Fold3","GooglePixel5","Iphone 13"}};
-		String [][] phones = {{"S20", "GoogleP0ixel6","Iphone 12"},
-               {"S21","Google Pixe l6Pro","Iphone SE"},
-               {"Flip3","Google Pixel Pro","Iphone 15"},
-               {"Fold3","Google Pixe l5","Iphone 13"}};
+//		String [][] phones = {{"S20", "GoogleP0ixel6","Iphone 12"},
+//               {"S21","Google Pixe l6Pro","Iphone SE"},
+//               {"Flip3","Google Pixel Pro","Iphone 15"},
+//               {"Fold3","Google Pixe l5","Iphone 13"}};
+		
+		String [][]phones = new String [4][3]
+		phones[0][0] = "S20";
+		
+		
 	Scanner sc = new Scanner (System.in);
 	
 	void populatephones() {

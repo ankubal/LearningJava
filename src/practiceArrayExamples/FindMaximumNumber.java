@@ -8,6 +8,8 @@ public class FindMaximumNumber {
     // Method to find maximum in arr[] 
     void  largest() 
     { 
+    	
+    	
         int i; 
          
         // Initialize maximum element 

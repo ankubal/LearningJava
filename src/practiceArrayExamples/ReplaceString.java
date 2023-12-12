@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ReplaceString {
 
-	public void replaceinttostring(Object[] numbers) {
+	 void replaceinttostring(Object[] numbers) {
 
 		int i = 0;
 
