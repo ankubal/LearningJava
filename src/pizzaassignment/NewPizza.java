@@ -8,11 +8,7 @@ public class NewPizza {
 		public static final String MEDIUM_PIZZA = "Medium Pizza";
 		public static final String LARGE_PIZZA = "Large Pizza";
 
-		String size;
 
-		public NewPizza(String size) {
-			this.size = size;
-		}
 
 		public void orderPizza() {
 			Scanner pizzaDepot = new Scanner(System.in);
@@ -54,7 +50,7 @@ public class NewPizza {
 			}
 
 			
-			System.out.println("Pizza Size selected is: " + pizzaSize + " Price is: $" + basePrice);
+ 
 			System.out.println("Do you want pepperoni topping?(Yes/No)");
 			String pepperoniChoice = pizzaDepot.next();
 			double toppingPrice = 0;
