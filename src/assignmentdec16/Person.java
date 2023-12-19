@@ -3,10 +3,10 @@ package assignmentdec16;
 public class Person {
 	private String accountNumber;
     private String accountHolderName;
-    private int pin;
+    private String pin;
     private OnlineBanking onlineBanking;
 
-    public Person(String accountNumber, String accountHolderName, double initialDeposit, int pin, String onlineBankingPassword) {
+    public Person(String accountNumber, String accountHolderName, double initialDeposit, String pin, String onlineBankingPassword) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
         this.pin = pin;
@@ -21,7 +21,7 @@ public class Person {
         return accountHolderName;
     }
 
-    public int getPin() {
+    public String getPin() {
         return pin;
     }
     
@@ -31,3 +31,4 @@ public class Person {
         return onlineBanking;
     }
 }
+ 

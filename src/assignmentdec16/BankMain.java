@@ -6,7 +6,7 @@ public class BankMain {
 
 	public static void main(String[] args) {
 		
-        Person person = new Person("123456789", "akanksha", 1000, 1234, "pass123");
+        Person person = new Person("123456789", "akanksha", 1000, "1234", "pass123");
 
         Scanner scanner = new Scanner(System.in);
         
