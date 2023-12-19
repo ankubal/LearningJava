@@ -1,4 +1,4 @@
-package assignmentdec16;
+package assignmentbank16;
 
 public class Person {
 	private String accountNumber;

@@ -1,4 +1,4 @@
-package assignmentdec16;
+package assignmentbank16;
 
 import java.util.Scanner;
 
