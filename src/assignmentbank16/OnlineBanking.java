@@ -12,10 +12,18 @@ public class OnlineBanking extends BankOperations {
 
 			    public boolean validatePassword(String enteredPassword) {
 			        return onlineBankingPassword.equals(enteredPassword);
-			    }
+			   
+//			        String modeOfUse = "Online";
+//					boolean isValidUser = false;
+//					isValidUser = modeOfUse.equals("ATM") ? person.validateUser("1234567", 1234)
+//							: person.validateUser("admin", "Admin123");
+//
+//					System.out.println("Is User Validated: " + isValidUser);}
 
-			    
+			    }		    
 	
-	}
+}
+
+
 
 

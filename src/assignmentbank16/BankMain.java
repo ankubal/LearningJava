@@ -6,17 +6,19 @@ public class BankMain {
 
 	public static void main(String[] args) {
 		
-        Person person = new Person("123456789", "akanksha", 1000, "1234", "pass123");
+        Person person = new Person("123456789", "akanksha", 1000, 1234, "pass123");
 
         Scanner scanner = new Scanner(System.in);
         
 		System.out.println(" ");
         System.out.println("Enter your PIN:");
-        String enteredPin = scanner.next();
+        
+        int enteredPin = scanner.nextInt();
 
-        // Validate PIN
-        if (enteredPin.equals(person.getPin())) {
+       
+       if (enteredPin == person.getPin()) {
         	System.out.println("valid user");
+        	
             System.out.println("Choose your banking service:");
             System.out.println("1. ATM");
             System.out.println("2. Online Banking");
@@ -105,7 +107,7 @@ public class BankMain {
             System.out.println("Incorrect online banking password. Transaction failed.");
         }
 
-        scanner.close();
+      scanner.close();
     }
 
 	
