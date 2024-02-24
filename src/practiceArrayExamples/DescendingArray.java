@@ -31,10 +31,10 @@ public class DescendingArray {
         }
     }
     System.out.print("Descending Order:");
-    for (int i = 0; i < n - 1; i++) 
+    for (int i = 0; i <n ; i++) 
     {
         System.out.print(a[i] + ",");
     }
-    System.out.print(a[n - 1]);
+   // System.out.print(a[n - 1]);
 }
 }

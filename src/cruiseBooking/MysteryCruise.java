@@ -2,10 +2,9 @@ package cruiseBooking;
 
 public class MysteryCruise extends CruiseDetails {
 
-	
 	public MysteryCruise(String cruiseName, double adultPrice, double childPrice, int days) {
 		super(cruiseName, adultPrice, childPrice, days);
-		
+
 	}
 
 	@Override
@@ -16,4 +15,5 @@ public class MysteryCruise extends CruiseDetails {
 
 		}
 		return totalPrice;
-	}}
+	}
+}

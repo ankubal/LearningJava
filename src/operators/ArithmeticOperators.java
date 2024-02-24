@@ -1,12 +1,17 @@
 package operators;
 
+import java.util.Iterator;
+
 public class ArithmeticOperators {
 int num1,num2;
 void add()
 {
 	int sum = num1+ num2;
 	System.out.println("sum is" + sum);
-}
+	
+		
+	}
+
 void subtract()
 {
 	int subtract = num1- num2;

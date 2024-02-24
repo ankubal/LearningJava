@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class SortArray {
 
-	
-	//int [] arr = new int[7];
+
 	int num;
 	void findsortarray() {
 		Scanner s = new Scanner(System.in);

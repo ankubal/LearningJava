@@ -1,9 +1,8 @@
-package cruiseBooking;
+package cruiseboking1;
 
-public class SunsetCruise extends CruiseDetails {
+public class DiscoveryCruise extends CruiseDetails {
 
-  
-	public SunsetCruise(String cruiseName, double adultPrice, double childPrice, int days) {
+	public DiscoveryCruise(String cruiseName, double adultPrice, double childPrice, int days) {
 		super(cruiseName, adultPrice, childPrice, days);
 
 	}

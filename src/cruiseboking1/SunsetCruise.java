@@ -1,4 +1,4 @@
-package cruiseBooking;
+package cruiseboking1;
 
 public class SunsetCruise extends CruiseDetails {
 

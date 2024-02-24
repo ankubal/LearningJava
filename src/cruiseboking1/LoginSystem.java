@@ -1,12 +1,15 @@
-package cruiseBooking;
+package cruiseboking1;
 
+import java.lang.invoke.SwitchPoint;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import javax.swing.SwingContainer;
 
 public class LoginSystem {
 
 	public ArrayList<UserDetails> registeredUsers = new ArrayList<>();
-
+	
 	public String currentUser = null;;
 	int userCount = 0;
 	Scanner input = new Scanner(System.in);
@@ -37,9 +40,7 @@ public class LoginSystem {
 		String loginEmail = input.nextLine();
 		System.out.println("Enter your password: ");
 		String loginPassword = input.nextLine();
-//		UserDetails updatepassword = new UserDetails(String newpassword);
-//		updatepassword.setPassword();
-//		System.out.println("updatepassword");
+		
 		boolean loggedIn = false;
 
 		for (UserDetails users : registeredUsers) {

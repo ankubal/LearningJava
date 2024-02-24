@@ -1,9 +1,8 @@
-package cruiseBooking;
+package cruiseboking1;
 
-public class SunsetCruise extends CruiseDetails {
+public class MysteryCruise extends CruiseDetails {
 
-  
-	public SunsetCruise(String cruiseName, double adultPrice, double childPrice, int days) {
+	public MysteryCruise(String cruiseName, double adultPrice, double childPrice, int days) {
 		super(cruiseName, adultPrice, childPrice, days);
 
 	}
@@ -13,8 +12,8 @@ public class SunsetCruise extends CruiseDetails {
 		double totalPrice = (adults * getAdultPrice() + children * getChildPrice()) * getDays();
 		if (meals) {
 			totalPrice = totalPrice + (adults * 20.99 + children * 4.99) * getDays();
+
 		}
 		return totalPrice;
 	}
-
 }

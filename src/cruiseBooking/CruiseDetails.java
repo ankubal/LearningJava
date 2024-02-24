@@ -29,6 +29,6 @@ abstract class CruiseDetails {
 		return days;
 	}
 
-	public abstract double calculatePrice(int adults, int children, boolean meals);
+	public abstract  double calculatePrice(int adults, int children, boolean meals);
 
 }

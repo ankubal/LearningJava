@@ -1,4 +1,4 @@
-package cruiseBooking;
+package cruiseboking1;
 
 import java.util.Scanner;
 
@@ -27,6 +27,7 @@ public class CruiseBooking {
 			case 1:
 				system.signUp(input);
 				system.logIn(input);
+				system.cruiseOrHotel(input);
 				system.cruiseSelection(input, cruises);
 				break;
 			case 2:
